@@ -5,13 +5,28 @@ const Landing = () => {
         <>
             <div class="hero h-screen lg:h-[60vh] bg-accent mt-16">
                 <div class="hero-content flex-col lg:flex-row z-10">
-                    <div data-aos="fade-right">
-                        <p className='text-xl'>Best Quality</p>
-                        <h1 class="text-5xl font-bold">Professional Cleaning Service</h1>
-                        <p class="py-6 max-w-xl">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
+                    <div>
+                        <p
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                            data-aos-delay="200"
+                            className='text-xl'
+                        >Best Quality</p>
+                        <h1
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                            data-aos-delay="400"
+                            class="text-5xl font-bold"
+                        >Professional Cleaning Service</h1>
+                        <p
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                            data-aos-delay="600"
+                            class="py-6 max-w-xl"
+                        >Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button data-aos-delay="1300" data-aos="zoom-in" data-aos-duration="1000" class="btn btn-primary">Get Started</button>
                     </div>
-                    <div className='h-[60vh] shrink-0'>
+                    <div data-aos="zoom-in" data-aos-delay="1200" className='h-[60vh] shrink-0'>
                         <img src={bucketGirl} class="max-w-sm w-full" alt='' />
                     </div>
                 </div>
