@@ -26,7 +26,7 @@ const Landing = () => {
                         >Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button data-aos-delay="1300" data-aos="zoom-in" data-aos-duration="1000" class="btn btn-primary">Get Started</button>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="1200" className='h-[60vh] shrink-0'>
+                    <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000" className='h-[60vh] shrink-0'>
                         <img src={bucketGirl} class="max-w-sm w-full" alt='' />
                     </div>
                 </div>
